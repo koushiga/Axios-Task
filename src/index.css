@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.card-section{
+  margin-bottom: 15px;  
+  width:25%;
+}
+.card-content{
+  width:55%;
+box-shadow: 0 0 10px black !important;
+
+
+}
+.card-content .Card.Img{
+  border-radius: 5px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width:100%;
+}
+.col{
+  display: flex;
+  flex-wrap: wrap;
+}
+.App{
+  background-color: aliceblue;
+}
+.backg{
+  background-color:white;
+  box-shadow: 0 0 10px gray;
+}
+.card-container{
+  margin-top: 10px;
+}
+
+.car1{
+    background-color: #000;
+    height: 400px;
+    color: #fff;
+    width: 100%;
+    background-image: url('./../public/image/car1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;  
+}
+.car2{
+  background-color: #000;
+  height: 400px;
+  color: #fff;
+  width: 100%;
+  background-image: url('./../public/image/car2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;  
+}
+.car3{
+  background-color: #000;
+  height: 400px;
+  color: #fff;
+  width: 100%;
+  background-image: url('./../public/image/car3.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;  
+}
+.caro{
+  margin: 0 auto;
+}
